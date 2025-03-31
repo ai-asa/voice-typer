@@ -64,7 +64,7 @@ npm run start
 
 Ctrl + Spaceを押しながら話すと、音声がテキストに変換されメインテキストエリアに追加されます。認識されたテキストは自動的にクリップボードにコピーされます。
 
-![通常音声認識モードのスクリーンショット](htps://github.com/user-attachments/assets/2549a0f1-22ba-4316-9d7c-d68bc5cc2a18)
+![通常音声認識モードのスクリーンショット](https://github.com/user-attachments/assets/1aef5917-8ffc-4e09-a874-7f51da4f7e8c)
 
 ### 校正モード
 
