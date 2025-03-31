@@ -1,0 +1,91 @@
+.titlebar-container {
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.titlebar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  padding: 0;
+}
+
+.titlebar-drag-region {
+  flex: 1;
+  -webkit-app-region: drag;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.titlebar-buttons {
+  display: flex;
+  -webkit-app-region: no-drag;
+}
+
+/* タイトル部分 */
+.titlebar h1 {
+  color: #000000;
+  margin-left: 10px;
+  font-size: 14px;
+  font-family: "Segoe UI", sans-serif;
+  user-select: none;
+}
+
+/* ボタン */
+.titlebar-button {
+  width: 45px;
+  height: 30px;
+  border: none;
+  background: transparent;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-app-region: no-drag;
+}
+
+.titlebar-button:hover {
+  background-color: #e5e7eb;
+}
+
+.titlebar-button.close:hover {
+  background-color: #dc2626;
+  color: white;
+}
+
+/* ウィンドウコンテンツ */
+.window-content {
+  border: none;
+  resize: none;
+  overflow: auto;
+}
+
+/* アプリケーションコンテナ */
+.app-container {
+  min-width: 400px;
+  min-height: 300px;
+  border: 1px solid #e5e7eb;
+}
+
+/* テキストエリアの最小サイズを設定 */
+.text-area {
+  min-height: 100px;
+  overflow-y: auto;
+}
+
+/* 設定パネルのレスポンシブ対応 */
+.settings-panel {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/* 既存のスタイルを維持 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
