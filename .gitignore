@@ -52,3 +52,6 @@ electron-builder.yml
 
 # その他
 .cache/
+
+# 実行可能ファイル
+release-builds/
